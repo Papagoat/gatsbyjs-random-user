@@ -16,7 +16,7 @@ export default ({props}) => {
               <ul>
                 <li><strong>Gender:</strong> {props.gender}</li>
                 <li><strong>Email:</strong> {props.email}</li>
-                <li><strong>Address:</strong> {props.location.street}, {props.location.city}, {props.location.state}</li>
+                <li><strong>Address:</strong> {props.location.street.name} {props.location.street.name}, {props.location.city}, {props.location.state}</li>
               </ul>
             </div>
           </div>
