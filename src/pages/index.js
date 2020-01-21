@@ -35,7 +35,7 @@ export const query = graphql`
             thumbnail
           }
           location {
-            street
+            street{number name}
             city
             state
           }
